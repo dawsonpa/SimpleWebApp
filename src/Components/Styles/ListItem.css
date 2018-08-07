@@ -1,0 +1,31 @@
+.ListItem_Body > .span {
+    border-bottom: 1px solid #cccccc;
+}
+.panel-default > .panel-heading {
+    background-color: #F7F7F7;
+    -moz-box-shadow: 3px 3px 5px 6px #fff;
+    -webkit-box-shadow: 3px 3px 5px 6px #fff;
+    box-shadow: 3px 3px 5px 6px #fff;
+}
+.ListItem_Body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.ListItem_Body_Row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.ListItem_Body_Column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

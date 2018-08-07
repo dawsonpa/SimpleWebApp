@@ -1,0 +1,14 @@
+{
+  "db": {
+    "localhost": "localhost",
+    "port": 27017,
+    "uri": "mongodb://localhost/medical",
+    "options": {
+      "w": 1,
+      "server": {
+        "reconnectTries": "Number.MAX_VALUE",
+        "poolSize": 5
+      }
+    }
+  }
+}

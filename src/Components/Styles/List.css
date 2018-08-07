@@ -1,0 +1,22 @@
+@value HeaderHeight 150px;
+@value ListContainerHeight calc(100vh - HeaderHeight - 64px);
+@value ListHeight calc(ListContainerHeight * 0.80);
+
+.List_Container {
+    height: ListContainerHeight;
+    flex-grow: 1;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.List {
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    width: 70%;
+    max-height: ListHeight;
+    overflow-y: scroll;
+}

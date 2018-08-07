@@ -1,0 +1,66 @@
+{
+  "name": "BarberApp-service",
+  "version": "0.0.1",
+  "author": "Paul Dawson <dawsonpe1820@gmail.com>",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development node index.js ",
+    "start-qa": "NODE_ENV=qa node index.js",
+    "start-staging": "NODE_ENV=staging node index.js",
+    "start-production": "NODE_ENV=production node index.js",
+    "debug": "node-debug service.js --debug-brk",
+    "test": "mocha specs --reporter spec"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "10.5.0"
+  },
+  "dependencies": {
+    "async-request": "1.2.0",
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.2",
+    "bolus": "^0.5.1",
+    "bunyan": "^1.8.12",
+    "bunyan-prettystream": "^0.1.3",
+    "config": "^1.26.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-bunyan-logger": "^1.3.3",
+    "express-jwt": "^5.3.1",
+    "glob": "^7.1.2",
+    "helmet": "^3.12.0",
+    "install": "^0.11.0",
+    "jsdoc": "^3.5.3",
+    "jsonwebtoken": "^8.2.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "moment-recur": "1.0.5",
+    "moment-timezone": "^0.5.16",
+    "mongoose": "^4.11.4",
+    "mongoose-connect": "0.0.3",
+    "mongoose-timestamp": "^0.6.0",
+    "mz": "^2.6.0",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-facebook-token": "^3.3.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "request": "2.87.0",
+    "request-promise-native": "1.0.5",
+    "response-time": "^2.3.2",
+    "simple-recur": "^0.2.0",
+    "timekit-sdk": "^1.16.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "3.16.0",
+    "eslint-plugin-jasmine": "2.10.1",
+    "mocha": "^5.1.1",
+    "superagent": "^3.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/pd4solutions/barberappserver/src/master/"
+  }
+}
