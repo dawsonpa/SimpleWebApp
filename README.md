@@ -13,7 +13,7 @@
  - Then start the React app:
   - run `yarn start` in the base of the project it should open up your default browser to the application
   
-  #Screenshots
+  # Screenshots
   
  <img width="1384" alt="screen shot 2018-08-07 at 1 21 10 pm" src="https://user-images.githubusercontent.com/7635070/43792536-fb14887e-9a46-11e8-8dd8-5380d3f829a1.png">
   
